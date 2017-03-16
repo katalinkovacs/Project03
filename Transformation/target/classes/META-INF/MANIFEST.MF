@@ -1,0 +1,26 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1489634308661
+Build-Jdk: 1.8.0_45
+Built-By: Katika
+Bundle-ManifestVersion: 2
+Bundle-Name: transformation
+Bundle-SymbolicName: transformation
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: processors;uses:="org.apache.camel,employee1,employee2,e
+ mployee3";version="1.0.0.SNAPSHOT",routes;uses:="org.apache.camel.build
+ er,org.apache.camel.spi,org.apache.camel.converter.jaxb,processors,empl
+ oyee2,org.apache.camel.model,org.apache.camel.component.jackson,employe
+ e3";version="1.0.0.SNAPSHOT",startapps;uses:="routes,org.apache.camel,o
+ rg.apache.activemq,javax.jms,org.apache.camel.impl,org.apache.camel.com
+ ponent.jms";version="1.0.0.SNAPSHOT"
+Import-Package: employee1;version="[1.0,2)",employee2;version="[1.0,2)",
+ employee3;version="[1.0,2)",javax.jms,org.apache.activemq,org.apache.ac
+ tivemq.camel.component,org.apache.camel;version="[2.15,3)",org.apache.c
+ amel.builder;version="[2.15,3)",org.apache.camel.component.jackson;vers
+ ion="[2.15,3)",org.apache.camel.component.jms;version="[2.15,3)",org.ap
+ ache.camel.converter.jaxb;version="[2.15,3)",org.apache.camel.impl;vers
+ ion="[2.15,3)",org.apache.camel.model;version="[2.15,3)",org.apache.cam
+ el.spi;version="[2.15,3)",org.osgi.service.blueprint;version="[1.0.0,2.
+ 0.0)"
+Tool: Bnd-1.50.0

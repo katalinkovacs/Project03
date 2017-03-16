@@ -1,5 +1,5 @@
 Manifest-Version: 1.0
-Bnd-LastModified: 1489619754380
+Bnd-LastModified: 1489634303411
 Build-Jdk: 1.8.0_45
 Built-By: Katika
 Bundle-ManifestVersion: 2
