@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1489634303411
+Build-Jdk: 1.8.0_45
+Built-By: Katika
+Bundle-ManifestVersion: 2
+Bundle-Name: employee1
+Bundle-SymbolicName: employee1
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: employee1;uses:="javax.xml.bind.annotation";version="1.0
+ .0.SNAPSHOT"
+Import-Package: javax.xml.bind.annotation
+Tool: Bnd-1.50.0

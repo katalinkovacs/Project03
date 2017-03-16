@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<features name="project03-parent-1.0-SNAPSHOT" xmlns="http://karaf.apache.org/xmlns/features/v1.0.0"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://karaf.apache.org/xmlns/features/v1.0.0 http://karaf.apache.org/xmlns/features/v1.0.0">
+
+    <feature name="project03">
+        <bundle>mvn:project03-parent/employee1/1.0-SNAPSHOT</bundle>
+        <bundle>mvn:project03-parent/employee2/1.0-SNAPSHOT</bundle>
+        <bundle>mvn:project03-parent/employee3/1.0-SNAPSHOT</bundle>
+        <bundle>mvn:project03-parent/transformation/1.0-SNAPSHOT</bundle>
+    </feature>
+</features>
